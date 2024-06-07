@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/funiture.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="main_product pb-lg-5 pb-sm-3 pb-3" id="furniture">
+      <center class="title p-1 p-sm-2 p-md-3 p-lg-4 p-xl-auto">
+        <h1 class="txt">We Love Trend</h1>
+        <div class="line"></div>
+      </center>
+      <section class="container parent-card mt-5 mt-sm-3 mt-md-3 mt-lg-4 pb-3" id="furniture">
+        <!-- <div class="card product-card">
+          <img
+            class="card-img-top image-item-list"
+            src="../images/im_chair.png"
+            alt="Card image"
+          />
+          <div class="card-text name-card ps-3">
+            <strong>Chir</strong>
+          </div>
+          <div class="card-text name-card text-start ps-3">
+            <ul>
+              <li>
+                Rating: 
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="star-active bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="star-active bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="star-active bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="star-active bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="star-unactive bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg>
+              </li>
+              <li>Price: $99</li>
+              <li>Discount: 10%</li>
+            </ul>
+          </div>
+        </div> -->
+      </section>
+
+      <ul class="container pb-2 pb-sm-2 pb-md-2 p-lg-auto pagination justify-content-end">
+        <li class="page-item">
+          <a class="page-link" href="#" id="minus-pagination">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+            </svg>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#" id="plus-pagination">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+          </svg>
+        </a></li>
+      </ul>
+
+      <section class="container justify-content-between d-flex">
+        <div class="card me-lg-5 me-1 card-arrive-product">
+          <img src="./assets/images/im_hero.jpg" alt="">
+          <div class="arrive-product">
+            <p class="quote-card">Product Just Arrived. <br> Have in stock</p>
+            <!-- <a href="../index.html"> -->
+              <div class="wraper-text">
+                <p>New Arrived</p>
+              </div>
+            <!-- </a> -->
+          </div>
+        </div>
+        <div class="card card-arrive-product">
+          <img src="./assets/images/im_hero.jpg" alt="">
+          <div class="arrive-product">
+            <p class="quote-card">Product Just Arrived. <br> Have in stock</p>
+            <!-- <a href="../index.html"> -->
+              <div class="wraper-text">
+                <p>New Arrived</p>
+              </div>
+            <!-- </a> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="collection-product mt-5 pt-3">
+        <center class="title">
+          <h3>Our Collection</h3>
+          <div class="line"></div>
+        </center>
+        <div class="container pt-5 pb-5">
+          <div class="row">
+            <div class="col-3 col-xxl-3 col-xl-3 col-sm-3 col-lg-3 child-image">
+              <img src="./assets/images/im_hero.jpg" alt=""/>
+            </div>
+            <div class="col-1 col-sm-1 col-lg-1 col-xl-1 col-xxl-1"></div>
+            <div class="col-3 col-xxl-3 col-xl-3 col-sm-3 col-lg-3 child-image">
+              <img src="./assets/images/im_hero.jpg" alt=""/>
+            </div>
+            <div class="col-1 col-sm-1 col-lg-1 col-xl-1 col-xxl-1"></div>
+            <div class="col-4  col-xxl-4 col-sm-4 col-lg-4 col-xl-4 child-image">
+              <img src="./assets/images/im_hero.jpg" alt=""/>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-4  col-xxl-4 col-sm-4 col-lg-4 col-xl-4 child-image">
+              <img src="./assets/images/im_hero.jpg" alt=""/>
+            </div>
+            <div class="col-1 col-sm-1 col-lg-1 col-xl-1 col-xxl-1"></div>
+            <div class="col-3 col-xxl-3 col-xl-3 col-sm-3 col-lg-3 child-image">
+              <img src="./assets/images/im_hero.jpg" alt=""/>
+            </div>
+            <div class="col-1 col-sm-1 col-lg-1 col-xl-1 col-xxl-1"></div>
+            <div class="col-3 col-xxl-3 col-xl-3 col-sm-3 col-lg-3 child-image">
+              <img src="./assets/images/im_hero.jpg" alt=""/>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

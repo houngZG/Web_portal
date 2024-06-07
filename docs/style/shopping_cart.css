@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.shopping-cart-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.cart-details {
+    flex: 2;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cart-details h1 {
+    font-size: 24px;
+}
+
+.cart-details h1 span {
+    font-weight: normal;
+    color: #6c6c6c;
+}
+
+.main-table{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 15px 0 15px 15px;
+    background-color: #dfdbdb7c;
+    border-radius: 5px;
+    padding: 15px 15px 15px 15px;
+}
+
+.main-table .empyty-folder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f7f7f7;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+td div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.quantity-button {
+    background-color: #4A2C2A;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.quantity-button:hover {
+    background-color: #6A3C3A;
+}
+
+.cancel-button {
+    background-color: #FF0000;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.cancel-button:hover {
+    background-color: #cc0000;
+}
+
+.order-summary {
+    flex: 1;
+    background-color: #E8D3B9;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.order-summary h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.order-summary p {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.apply-button, .checkout-button {
+    background-color: #4A2C2A;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.apply-button:hover, .checkout-button:hover {
+    background-color: #6A3C3A;
+}
+
+.promo-code-input {
+    position: relative;
+}
+
+#promoInput {
+    padding-right: 0px;
+}
+
+.promo-code-input .fas {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.promo-code-input .fas.fa-check {
+    color: #4CAF50; 
+}
+
+.promo-code-input .fas.fa-times {
+    color: #FF0000; 
+}
+
+.promoMessage {
+    color: #4CAF50; 
+    margin-top: 5px;
+}

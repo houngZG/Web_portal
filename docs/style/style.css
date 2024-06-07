@@ -1,0 +1,209 @@
+body {
+  font-family: "Libre Bodoni", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  overflow-x: hidden;
+}
+h1 {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+h2 {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+h3 {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+a {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+button {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+p, th{
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  background-color: #a88768;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 5vh;
+}
+
+header .logo {
+  font-size: 34px;
+  font-weight: bold;
+  color: #4e0bad;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+header .login-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .login-cart a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+}
+header .login-cart a span {
+  width: 30px;
+  height: 30px;
+  background-color: #d9d9d9;
+  padding: 10%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .login-cart a span img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.content-section {
+  display: none;
+}
+
+.content-section:first-of-type {
+  display: block;
+}
+
+footer {
+  background-color: #151b26;
+  color: white;
+  text-align: center;
+}
+
+.footer-top {
+  background-color: #a88768;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-section p {
+  margin: 5px 0;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background-color: #151b26;
+  padding: 10px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  margin-top: 0;
+}
+
+.dropdown-item {
+  margin: 10px 0px 10 0px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  margin-top: 0;
+}
+
+.dropdown-item {
+  margin: 10px 0px 10 0px;
+}
+
+@media (max-width: 1200px) {
+}
+
+/* For medium screens */
+@media (max-width: 992px) {
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+}
+
+/* For extra small screens */
+@media (max-width: 576px) {
+  .footer-section a {
+    font-size: 11px;
+  }
+
+  .footer-bottom p {
+    font-size: 11px;
+  }
+}
+
+.selected-nav {
+  text-decoration-color: #a88768;
+  text-decoration: underline;
+  text-decoration-thickness: 6px; 
+  text-decoration-color: #3F2305;
+  color: #3F2305;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decor Space</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/home.css" />
+    <link rel="stylesheet" href="./style/aboutus.css">
+    <link rel="stylesheet" href="./style/market_place.css">
+    <link rel="stylesheet" href="./style/contact.css">
+    <link rel="shortcut icon" href="./assets/logos/lg_bg_removed.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./view/shopping_cart.html">
+    <link rel="stylesheet" href="./view/shipping.html">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">DECO SPACE</div>
+      <nav id="menu">
+        <ul>
+          <li>
+            <a href="./view/home.html" data-section="home">Home</a>
+          </li>
+          <li>
+            <a href="./view/furniture.html" data-section="furniture">Furniture</a>
+          </li>
+          <li>
+            <a href="./view/design_inspiration.html" data-section="design">Design Inspiration</a>
+          </li>
+          <li class="nav-item dropdown">
+            <strong data-section="design" id="mainText" class="text-white">Our Story</strong>
+            <ul class="dropdown-menu dropdown-menu-light border-0 p-0" id="dropdown-menu">
+              <li class="bg-list-sub-menu mt-3" id="content-menu">
+                <a class="dropdown-item" href="./view/aboutus.html">About US</a>
+              </li>
+              <li id="content-menu"><a class="dropdown-item" href="./view/market_place.html">Market Place</a></li>
+              <li id="content-menu"><a class="dropdown-item mb-3" href="./view/contact.html">Contact US</a></li>
+            </ul>
+          </li>
+
+          <!-- sub-menu for small screen -->
+          <li class="parent-submenu" id="parent-submenu">
+            Our Story
+            <ul id="sub-menu">
+              <li id="content-menu"><a href="./view/aboutus.html">About US</a></li>
+              <li id="content-menu"><a href="./view/market_place.html">Market Place</a></li>
+              <li id="content-menu"><a href="./view/contact.html">Contact US</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="login-cart">
+        <a href="./view/authentication/login.html">Login</a> &nbsp;&nbsp;
+        <a href="#">
+          <span class="position-relative">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="black" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0"/>
+            </svg>
+            <span class="position-absolute text-center top-0 start-100 translate-middle badge rounded-pill bg-danger w-75 h-75" id="card-counter">
+              +0
+            </span>
+          </span>
+        </a>
+        &nbsp;&nbsp;
+        <a href="#" class="logo-menu" id="logo-menu">
+          <span class="toggle-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </header>
+    <main id="content">
+      <script  type="module" src="./scripts/app.js"></script>
+    </main>
+    
+    <footer>
+      <div class="footer-top">
+        <div class="footer-section">
+          <p>Address:<br />Toul tompong, 468st, Phnom Penh, Cambodia</p>
+        </div>
+        <div class="footer-section">
+          <p>
+            Email:<br />
+            <a href="mailto:povlyhoung02@gmail.com">povlyhoung02@gmail.com</a>
+          </p>
+        </div>
+        <div class="footer-section">
+          <p>Tell:<br />+885 89 826 667</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2024 Student’s Norton.</p>
+      </div>
+    </footer>
+  </body>
+</html>

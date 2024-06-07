@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Chair</title>
+    <link rel="stylesheet" href="../style/preview_cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="product-container">
+        <div class="image-carousel">
+            <button class="carousel-button left" id="left-button">&#8249;</button>
+            <img src="../images/im_chair.png" alt="Chair Image" class="main-image" id="main-image">
+            <button class="carousel-button right" id="right-button">&#8250;</button>
+            <div class="thumbnail-container">
+                <img src="../images/im_chair.png" alt="Brown Chair" class="thumbnail active">
+                <img src="../images/black_chair.png" alt="Gray Chair" class="thumbnail">
+                <img src="../images/white_chair.png" alt="Orange Chair" class="thumbnail">
+            </div>
+        </div>
+        <div class="product-details">
+            <button class="close-button">&times;</button>
+            <h1>Super Chair</h1>
+            <div class="color-options">
+                <label>Color:</label>
+                <div class="color brown active"></div>
+                <div class="color gray"></div>
+                <div class="color orange"></div>
+            </div>
+            <p>Discount: <span>0%</span></p>
+            <p>Shipping: <span class="free-shipping">Free</span></p>
+            <p class="delivery-date">Estimated delivery on Jul 16</p>
+            <div class="dimensions">
+                <p>Model: <span>2024</span></p>
+                <div class="dimension-box">
+                    <p>Width: <span>23cm</span></p>
+                    <p>Height: <span>126cm</span></p>
+                </div>
+            </div>
+            <div class="price">
+                <div class="quantity-selector">
+                    <button class="quantity-button" id="decrease">-</button>
+                    <input type="text" id="quantity" value="1">
+                    <button class="quantity-button" id="increase">+</button>
+                </div>
+                <p>Price: <span>$89</span></p>
+                <p>Riel: <span>356000</span></p>
+            </div>
+            <div class="action-buttons">
+                <button class="cart-button cancel" id="cancel-cart">Cancel Cart</button>
+                <button class="cart-button add" id="add-cart">Add Cart</button>
+            </div>
+        </div>
+    </div>
+    <script src="../script/preview_cart.js"></script>
+</body>
+</html>

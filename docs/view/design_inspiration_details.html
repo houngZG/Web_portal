@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modernized Tudor</title>
+    <link rel="stylesheet" href="./style/design_inspiration_details.css">
+</head>
+<body>
+    <section class="gallery">
+        <img src="./assets/images/design_idea.png" alt="Dining Room 1">
+        <img src="./assets/images/design_idea1.png" alt="Dining Room 2">
+        <img src="./assets/images/design_idea2.png" alt="Dining Room 3">
+    </section>
+    <section class="service-card">
+        <div class="service-card-item">
+            <img src="./assets/images/icons/trophy.png" width="32px" alt="">
+            <div class="title">
+                <h4>High-Quality</h4>
+                <p>crafted from top materials</p>
+            </div>
+        </div>
+        <div class="service-card-item">
+            <img src="./assets/images/icons/verify.png" width="32px" alt="">
+            <div class="title">
+                <h4>Warranty Protection</h4>
+                <p>Over 2 years</p>
+            </div>
+        </div>
+        <div class="service-card-item">
+            <img src="./assets/images/icons/get_box.png" width="32px" alt="">
+            <div class="title">
+                <h4>Free Shipping</h4>
+                <p>Order over 150 $   </p>
+            </div>
+        </div>
+        <div class="service-card-item">
+            <img src="./assets/images/icons/support.png" width="32px" alt="">
+            <div class="title">
+                <h4>24 / 7 support</h4>
+                <p>Dedicated support</p>
+            </div>
+        </div>
+    </section>
+    <section class="products">
+        <div class="product" style="background-color: #F5F5F5;">
+            <img src="./assets/images/lamp.png" alt="Lamp">
+            <p>Lamp</p>
+            <p>$28</p>
+            <a href="./view/preview_cart.html"><button onclick="addToCart('Lamp', 28)">Add to Cart</button></a>
+        </div>
+        <div class="product" style="background-color: #ECE9E1;">
+            <img src="./assets/images/black_chair.png" alt="Black Chair">
+            <p>Black Chair</p>
+            <p>$15</p>
+            <button onclick="addToCart('Black Chair', 15)">Add to Cart</button>
+        </div>
+        <div class="product" style="background-color: #F5F5F5;">
+            <img src="./assets/images/light.png" alt="Lighting">
+            <p>Lighting</p>
+            <p>$34</p>
+            <button onclick="addToCart('Lighting', 34)">Add to Cart</button>
+        </div>
+        <div class="product" style="background-color: #ECE9E1;">
+            <img src="./assets/images/coin_gold.png" alt="Gold Coin">
+            <p>Gold Coin 20s</p>
+            <p>$102</p>
+            <button onclick="addToCart('Gold Coin', 102)">Add to Cart</button>
+        </div>
+    </section>
+    <section class="order-summary">
+        <h2>ALL YOU WANT</h2>
+        <div class="order">
+            <div class="order-product-image">
+                <div class="order-product-main-image">
+                    <img id="orderProductImage" src="./assets/images/black_chair.png" alt="Chair VVIP">
+                    <div class="order-image-navigation">
+                        <button class="order-prev" onclick="prevImage()">&lt;</button>
+                        <button class="order-next" onclick="nextImage()">&gt;</button>
+                    </div>
+                </div>
+                
+                <div class="order-product-image-list">
+                    <div class="order-product-image-list-card">
+                        <img src="./assets/images/lamp.png" alt="">
+                        <div class="order-product-image-list-card-title">
+                            <div class="order-ring-color"></div>
+                            <p>Lamp</p>
+                        </div>
+                    </div>
+                    <div class="order-product-image-list-card">
+                        <img src="./assets/images/lamp.png" alt="">
+                        <div class="order-product-image-list-card-title">
+                            <div class="order-ring-color"></div>
+                            <p>Lamp</p>
+                        </div>
+                    </div>
+                    <div class="order-product-image-list-card">
+                        <img src="./assets/images/lamp.png" alt="">
+                        <div class="order-product-image-list-card-title">
+                            <div class="order-ring-color"></div>
+                            <p>Lamp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="order-details">
+                <h1>Modernized Tudor</h1>
+                <p>Model: 2024</p>
+                <p>Discount: 0%</p>
+                <p>Shipping: $32.10</p>
+                <p>Estimated delivery on Jul 16</p>
+                <p>Total Price: $<span id="total-price">150</span></p>
+                <p>Riel: <span id="riel-price">600000</span></p>
+                <div class="order-buttons">
+                    <button onclick="cancelOrder()">Cancel Order</button>
+                    <button onclick="placeOrder()">Order</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <script src="../script/design_inspiration_detail.js"></script>
+</body>
+</html>

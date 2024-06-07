@@ -1,0 +1,295 @@
+{
+    "data": {
+        "furnitures": [
+            {
+                "id": "1",
+                "image": "./assets/furnitures/item-1.jpg",
+                "price": "50",
+                "discount": "10%",
+                "product_name": "Humply Modern White",
+                "description": "Humply Modern White Leather Smart Nightstand with Wireless Charger Drawers Bedside Table",
+                "rating": "4",
+                "created_at": "5/31/2024",
+                "product_type": "furniture",
+                "colors": [
+                    "red",
+                    "blue",
+                    "green"
+                ],
+                "width": "39",
+                "height": "50",
+                "warranty": "1",
+                "product_from": "China"
+            },
+            {
+                "id": "2",
+                "image": "./assets/furnitures/item-2.jpg",
+                "price": "25",
+                "discount": "5%",
+                "product_name": "Chairside table with drawers",
+                "description": "Organize and Beautify Your Living Space with a Chairside Table with Drawers",
+                "rating": "4",
+                "created_at": "5/31/2024",
+                "product_type": "furniture"
+            },
+            {
+                "id": "3",
+                "image": "./assets/furnitures/item-3.jpg",
+                "price": "85",
+                "discount": "10%",
+                "product_name": "Modern Nightstand",
+                "description": "The high-gloss drawer surface of the bedside table keeps the entire bedroom or room fresh and easier to clean. ",
+                "rating": "5",
+                "created_at": "5/31/2024",
+                "product_type": "furniture"
+            },
+            {
+                "id": "4",
+                "image": "./assets/furnitures/item-4.jpg",
+                "price": "15",
+                "discount": "0%",
+                "product_name": "Modern Mirror",
+                "description": "Transform Your Home with These Stunning Decor Ideas!",
+                "rating": "4",
+                "created_at": "5/31/2024",
+                "product_type": "furniture"
+            },
+            {
+                "id": "5",
+                "image": "./assets/furnitures/item-5.jpg",
+                "price": "10",
+                "discount": "0%",
+                "product_name": "Light Gray Wood",
+                "description": "Buying Homary Furniture is a smart and easy decision. Shop quality furniture from sofa sets to faucets of all styles, delivered fast and shipping-free.",
+                "rating": "4",
+                "created_at": "5/31/2024",
+                "product_type": "furniture"
+            },
+            {
+                "id": "6",
+                "image": "./assets/furnitures/item-6.jpg",
+                "price": "100",
+                "discount": "5%",
+                "product_name": "Mi-Mirror Luxury",
+                "description": "Mi-Mirror Rectangle Household Dressing Mirror",
+                "rating": "5",
+                "created_at": "6/06/2024",
+                "product_type": "furniture"
+            },
+            {
+                "id": "7",
+                "image": "./assets/furnitures/item-7.jpg",
+                "price": "120",
+                "discount": "15%",
+                "product_name": "Rattan Chair - Rattan Mirror - Suar Table",
+                "description": "A set of rattan chair complete with the cushion, paired with our most favorite rattan mirror and suar table will make your living room perfect.",
+                "rating": "4",
+                "created_at": "6/06/2024",
+                "product_type": "furniture"
+            },
+            {
+                "id": "8",
+                "image": "./assets/furnitures/item-8.jpg",
+                "price": "20",
+                "discount": "0%",
+                "product_name": "Urban Outfitter",
+                "description": "Urban Outfitters' Fall furniture collection is here, and it is complete with velvet sofas, rattan dressers, dainty vanities, and so much more.",
+                "rating": "4",
+                "created_at": "6/06/2024",
+                "product_type": "furniture"
+            },
+            {
+                "id": "9",
+                "image": "./assets/furnitures/item-9.jpg",
+                "price": "90",
+                "discount": "0%",
+                "product_name": "Stunning Modern",
+                "description": "This stunning modern coat rack is crafted from rich walnut wood, offering both style and durability.",
+                "rating": "4",
+                "created_at": "6/06/2024",
+                "product_type": "furniture"
+            },
+            {
+                "id": "10",
+                "image": "./assets/furnitures/item-10.jpg",
+                "price": "90",
+                "discount": "0%",
+                "product_name": "Stunning Modern",
+                "description": "This stunning modern coat rack is crafted from rich walnut wood, offering both style and durability.",
+                "rating": "4",
+                "created_at": "6/06/2024",
+                "product_type": "furniture"
+            },
+            {
+                "id": "11",
+                "image": "./assets/furnitures/item-11.jpg",
+                "price": "100",
+                "discount": "10%",
+                "product_name": "Dressers at Urban Outfitters",
+                "description": "Explore a stunning range of dressers at Urban Outfitters. Find everything from compact to long dressers to suit your style and storage needs.",
+                "rating": "4",
+                "created_at": "6/06/2024",
+                "product_type": "furniture"
+            },
+            {
+                "id": "12",
+                "image": "./assets/furnitures/item-12.jpg",
+                "price": "90",
+                "discount": "5%",
+                "product_name": "Furniture Pieces",
+                "description": "Amazon’s New Releases section is filled with space-saving furniture under $100.",
+                "rating": "4",
+                "created_at": "2/06/2024",
+                "product_type": "furniture"
+            },
+            {
+                "id": "13",
+                "image": "./assets/furnitures/item-13.jpg",
+                "price": "30",
+                "discount": "10%",
+                "product_name": "Chair",
+                "description": "It's easy to see why this £149.99 chair is stealing the limelight",
+                "rating": "4",
+                "created_at": "2/06/2024",
+                "product_type": "furniture"
+            },
+            {
+                "id": "14",
+                "image": "./assets/furnitures/item-14.jpg",
+                "price": "140",
+                "discount": "0%",
+                "product_name": "Sofa& Couches",
+                "description": "Made on Order A variety of furniture is perfectly made to make you feel happy. ",
+                "rating": "4",
+                "created_at": "2/06/2024",
+                "product_type": "furniture"
+            },
+            {
+                "id": "15",
+                "image": "./assets/furnitures/item-16.jpg",
+                "price": "140",
+                "discount": "0%",
+                "product_name": "Bed",
+                "description": "Be amazed by the world of luxury detail in bedroom hotels.",
+                "rating": "4",
+                "created_at": "2/06/2024",
+                "product_type": "furniture"
+            }
+        ],
+        "offices": [
+            {
+                "id": "1",
+                "image": "./assets/offices/office1.jpg",
+                "price": "169$",
+                "discount": "10%",
+                "product_name": "Home- Office-Furiture Set",
+                "description": "Best of Office-Furiture at home",
+                "rating": "5",
+                "created_at": "2024-06-06",
+                "product_type": "furniture"
+            },
+            {
+                "id": "2",
+                "image": "./assets/offices/office2.jpg",
+                "price": "400$",
+                "discount": "5%",
+                "product_name": "Best Office-Furiture Set",
+                "description": "Office-Furiture at Company",
+                "rating": "5",
+                "created_at": "2024-04-06",
+                "product_type": "furniture"
+            },
+            {
+                "id": "3",
+                "image": "./assets/offices/office3.jpg",
+                "price": "299$",
+                "discount": "15%",
+                "product_name": "Brown Office-Furiture Set",
+                "description": "Office-Furiture at Company and love color Brown",
+                "rating": "5",
+                "created_at": "2024-05-06",
+                "product_type": "furniture"
+            },
+            {
+                "id": "4",
+                "image": "./assets/offices/office4.jpg",
+                "price": "499$",
+                "discount": "10%",
+                "product_name": "Team Office-Furiture Set",
+                "description": "Office-Furiture at Company and worke with Team",
+                "rating": "4.5",
+                "created_at": "2024-01-06",
+                "product_type": "furniture"
+            },
+            {
+                "id": "5",
+                "image": "./assets/offices/office5.jpg",
+                "price": "799$",
+                "discount": "0%",
+                "product_name": "CEO Office-Furiture Set",
+                "description": "CEO table Office-Furiture at Company ",
+                "rating": "5",
+                "created_at": "2023-05-06",
+                "product_type": "furniture"
+            }
+        ],
+        "kitchens": [
+            {
+                "id": "1",
+                "image": "./assets/kitchens/kitchens1.jpg",
+                "price": "599$",
+                "discount": "10%",
+                "product_name": "Modular kitchens interior",
+                "description": "Best of kitchens in small house",
+                "rating": "4",
+                "created_at": "2023-01-12",
+                "product_type": "furniture"
+            },
+
+            {
+                "id": "2",
+                "image": "./assets/kitchens/kitchens2.jpg",
+                "price": "999$",
+                "discount": "10%",
+                "product_name": "Modular kitchens interior",
+                "description": "Best of kitchens in Condo",
+                "rating": "4",
+                "created_at": "2023-05-12",
+                "product_type": "furniture"
+            },
+            {
+                "id": "3",
+                "image": "./assets/kitchens/kitchens3.jpg",
+                "price": "1199$",
+                "discount": "0%",
+                "product_name": "VIP Modular kitchens interior",
+                "description": "Best of kitchens in Bigger house",
+                "rating": "5",
+                "created_at": "2023-08-12",
+                "product_type": "furniture"
+            },
+            {
+                "id": "4",
+                "image": "./assets/kitchens/kitchens4.jpg",
+                "price": "1599$",
+                "discount": "10%",
+                "product_name": "VIP black kitchens interior",
+                "description": "Best of kitchens in Bigger house and use ",
+                "rating": "4",
+                "created_at": "2023-09-12",
+                "product_type": "furniture"
+            },
+            {
+                "id": "5",
+                "image": "./assets/kitchens/kitchens5.jpg",
+                "price": "1999$",
+                "discount": "0%",
+                "product_name": "VVIP  kitchens interior",
+                "description": "Best of kitchens in Bigger house and hove four member",
+                "rating": "5",
+                "created_at": "2023-08-12",
+                "product_type": "furniture"
+            }   
+        ]
+    }
+}

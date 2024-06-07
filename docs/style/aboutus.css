@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.window {
+    background-color: #DFD7BF;
+    width: 99vw;
+    height: auto;
+}
+
+.window .banner {
+    width: 100%; 
+    height: 80vh; 
+    position: relative;
+    overflow: hidden;
+}
+
+.window .banner .bg-banner-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.window .banner .bg-banner-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.window .banner .title-page {
+    background-color: rgba(0, 0, 0, 0.159);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%; 
+    left: 50%; 
+    transform: translate(-50%, -0%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.window .banner .title-page h1 {
+    text-decoration: underline;
+    color: rgb(180, 180, 180);
+}
+
+.window .banner .title-page strong {
+    font-size: 70px;
+    color: #3f2305;
+    margin-top: 80px;
+    text-align: center;
+    text-shadow: 1px 0px 2px gray;
+}
+
+.window .container .name-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.window .container .name-card .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .window .banner .title-page strong {
+        font-size: 80px;
+        margin-top: 100px;
+    }
+
+    .window .container .name-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-menbers .text h1{
+        font-size: 22px;
+        padding: 0;
+        font-weight: bold;
+    }
+
+    .window .banner .title-page strong {
+        font-size: 70px;
+        margin-top: 70px;
+    }
+
+    .window .banner {
+        width: 100vw; 
+        height: 70vh; 
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1024px) {
+    .window .banner .title-page strong {
+        font-size: 80px;
+        margin-top: 100px;
+    }
+
+    .window .container .name-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-menbers .text h1{
+        font-size: 22px;
+        padding: 0;
+        font-weight: bold;
+    }
+
+    .window .banner .title-page strong {
+        font-size: 70px;
+        margin-top: 70px;
+    }
+
+    .window .banner {
+        width: 100vw; 
+        height: 70vh; 
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+/* For medium screens */
+@media (max-width: 992px) {
+    .window .banner {
+        width: 100vw; 
+        height: 40vh; 
+        position: relative;
+        overflow: hidden;
+    }
+
+    .window .banner .title-page strong {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .window .banner {
+        width: 100vw; 
+        height: 40vh; 
+        position: relative;
+        overflow: hidden;
+    }
+
+    .window .banner .title-page h1{
+        font-size: 22px;
+    }
+
+    .window .banner .title-page strong {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+
+    .window .container .name-card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team-menbers .text h1{
+        font-size: 18px;
+        padding: 0;
+        font-weight: bold;
+    }
+}
+
+/* For extra small screens */
+@media (max-width: 576px) {
+    .window .banner {
+        width: 100vw; 
+        height: 30vh; 
+        position: relative;
+        overflow: hidden;
+    }
+
+    .window .banner .title-page strong {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .window .container .name-card {
+        grid-template-columns: 1fr;
+    }
+
+    .window .banner .title-page h1{
+        font-size: 18px;
+    }
+
+    .window .banner .title-page {
+        padding: 10px;
+    }
+
+    .team-menbers .text h1{
+        font-size: 18px;
+        padding: 0;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .window .banner {
+        width: 100vw; 
+        height: 30vh; 
+        position: relative;
+        overflow: hidden;
+    }
+
+    .window .banner .title-page h1{
+        font-size: 18px;
+    }
+
+    .window .banner .title-page strong {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .window .container .name-card {
+        grid-template-columns: 1fr;
+    }
+
+    .window .banner .title-page {
+        padding: 10px;
+    }
+
+    .team-menbers .text h1{
+        font-size: 18px;
+        padding: 0;
+        font-weight: bold;
+    }
+}

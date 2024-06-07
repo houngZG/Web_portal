@@ -1,0 +1,93 @@
+.shipping-form, .order-summary {
+    width: 50%;
+    padding: 20px;
+}
+
+.shipping-form h1, .order-summary h1 {
+    color: #4a362a;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #4a362a;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.select-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.select-wrapper img {
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.select-wrapper select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+}
+
+.order-summary {
+    border-radius: 8px;
+}
+
+.summary-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.summary-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.total-cost {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.pay-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4a362a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.pay-button:hover {
+    background-color: #3a2a1a;
+}

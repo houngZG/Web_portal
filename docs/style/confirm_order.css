@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f2ed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    max-width: 800px;
+}
+
+header {
+    margin-top: 100px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+h1 {
+    color: #4a362a;
+}
+
+main p {
+    margin: 10px 0;
+}
+
+.order-details, .summary {
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f2ed;
+    color: #4a362a;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.item-image {
+    width: 50px;
+    height: 50px;
+}
+
+.item-details {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.item-price {
+    font-weight: bold;
+    color: #4a362a;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    color: #aaa;
+}
+
+footer a {
+    color: #4a362a;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.payment-icon {
+    width: 50px;
+}
+
+.done-button {
+    background-color: #4A2C2A;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}

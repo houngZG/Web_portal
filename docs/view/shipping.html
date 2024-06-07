@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Information</title>
+    <link rel="stylesheet" href="./style/shipping.css">
+</head>
+<body>
+    <div class="container-fluid d-flex justify-content-center align-content-center p-5">
+        <div class="shipping-form">
+            <h1>Shipping</h1>
+            <form>
+                <div class="input-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" placeholder="Enter Your First Name">
+                </div>
+                <div class="input-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" placeholder="Enter Your Last Name">
+                </div>
+                <div class="input-group">
+                    <label for="destination">Destination/Region</label>
+                    <div class="select-wrapper">
+                        <img src="./assets/images/flag/Cambodia_flag.png" alt="Cambodia Flag">
+                        <select id="destination">
+                            <option value="cambodia">Cambodia (Riel)</option>
+                            <option value="cambodia">United state (dollar)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" placeholder="Cambodia, Phnom Penh A143 Streets">
+                </div>
+                <div class="input-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" placeholder="Phnom Penh">
+                </div>
+                <div class="input-group">
+                    <label for="postal-code">Postal or Zip Code</label>
+                    <input type="text" id="postal-code" placeholder="Enter Your Postal Code">
+                </div>
+                <div class="input-group">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="text" id="phone-number" placeholder="Phone number">
+                </div>
+            </form>
+        </div>
+        <div class="order-summary">
+            <h1>Summary</h1>
+            <div class="summary-item">
+                <img src="./assets/images/black_chair.png" alt="Black Chair">
+                <div class="item-details">
+                    <p>x 1 Black Chair</p>
+                    <p>$15.00</p>
+                </div>
+            </div>
+            <div class="summary-item">
+                <img src="./assets/images/light.png" alt="Lighting">
+                <div class="item-details">
+                    <p>x 1 Lighting</p>
+                    <p>$34.00</p>
+                </div>
+            </div>
+            <div class="summary-item">
+                <img src="./assets/images/lamp.png" alt="Lamp">
+                <div class="item-details">
+                    <p>x 1 Lamp</p>
+                    <p>$28.00</p>
+                </div>
+            </div>
+            <div class="summary-item">
+                <img src="./assets/images/coin_gold.png" alt="Gold Coin">
+                <div class="item-details">
+                    <p>x 1 Gold Coin 20s</p>
+                    <p>$7.05</p>
+                </div>
+            </div>
+            <div class="total-cost">
+                <p>TOTAL COST</p>
+                <p>$77.00</p>
+            </div>
+            <button class="pay-button">PAY</button>
+        </div>
+    </div>
+</body>
+</html>

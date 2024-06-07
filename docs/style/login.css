@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5dc;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left-side {
+    background-color: #EFECE7;
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-side .logo {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.left-side h1 {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #4a4a4a;
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-box label {
+    font-size: 0.9em;
+    color: #4a4a4a;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.btn-signin {
+    background-color: #4a4a4a;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    margin: 40px 0;
+    justify-content: center;
+    padding: 20;
+}
+.social-logo {
+    width: 30px;
+    height: 10;
+}
+
+.social-icon {
+    font-size: 1.5em;
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+.forgot-password {
+    color: #ea0f0f;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-align: right;
+}
+
+.right-side {
+    background-color: #EAE7D8;
+    background-image: url('../assets/images/bg_login.png');
+    background-position: center top;
+    background-size: cover;
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-side h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+
+.right-side p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+
+.btn-signup {
+    background-color: transparent;
+    border: 2px solid #4a4a4a;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 25px;
+    color: #4a4a4a;
+    margin-top: 20px;
+}

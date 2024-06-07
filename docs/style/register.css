@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5dc;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left-side {
+    background-image: url('../assets/images/bg_login.png');
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-position-x: 0;
+    background-position-y: 0;
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-side .logo {
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+.left-side h1 {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #4a4a4a;
+}
+
+.left-side p {
+    font-size: 1em;
+    margin: 20px 0;
+    color: #4a4a4a;
+}
+
+.btn-signin {
+    background-color: transparent;
+    border: 2px solid #4a4a4a;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 25px;
+    color: #4a4a4a;
+    margin-top: 20px;
+}
+
+.right-side {
+    background-color: #F5F5F5;
+    flex: 1;
+    padding: 40px;
+}
+
+.right-side h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #4a4a4a;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.input-box:last-child {
+    margin-right: 0;
+}
+
+label {
+    font-size: 0.9em;
+    color: #4a4a4a;
+}
+
+input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.btn-signup {
+    background-color: #4a4a4a;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 1.5em;
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+.social-logo {
+    width: 30px;
+    height: 10;
+}

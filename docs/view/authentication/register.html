@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup</title>
+    <link rel="stylesheet" href="../../style/register.css">
+    <link rel="stylesheet" href="../../index.html">
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <img src="../../assets/logos/lg_bg_removed.png" alt="" class="logo">
+            <h1>Welcome Back</h1>
+            <p>It's great to see you again. Dive back in and continue your journey with us!</p>
+            <a href="../authentication/login.html">
+                <button class="btn-signin">Sign In</button>
+            </a>
+        </div>
+        <div class="right-side">
+            <h1>Create Account</h1>
+            <form class="signup-form">
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" placeholder="Enter Your First Name">
+                    </div>
+                    <div class="input-box">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" placeholder="Enter Your Last Name">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter Your Email">
+                    <div id="email-error" class="error"></div>
+                </div>
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter Your Password">
+                    <div id="password-error" class="error"></div>
+                </div>
+                <button class="btn-signup" type="submit">Sign Up</button>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" class="social-icon"><img src="../../assets/logos/communication.png" alt="" class="social-logo"></a>
+                    <div class="social-logo"></div>
+                    <a href="https://www.google.com" class="social-icon"><img src="../../assets/logos/google.png" alt="" class="social-logo"></a>
+                    <div class="social-logo"></div>
+                    <a href="https://t.me/" class="social-icon"><img src="../../assets/logos/telegram.png" alt="" class="social-logo"></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../../script/register.js"></script>
+</body>
+</html>
